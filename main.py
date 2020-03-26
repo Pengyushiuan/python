@@ -176,27 +176,28 @@
 #         print(f'已購買{buy_drink["name"]} {buy_drink["price"]}元')
 #         print(f'購買後餘額為 {balance}元')
 
-import vending_machine.vending_service as machine #匯入vending_machine模組 如果不打as就需要把vending_machine全名打出來
-flag = True #控制迴圈是否執行
+# import vending_machine.vending_service as machine #匯入vending_machine模組 如果不打as就需要把vending_machine全名打出來
+# flag = True #控制迴圈是否執行
+#
+# while flag:
+#     print('\n================')
+#     select = eval(input('1. 儲值\2. 購買\n3. 查詢餘額\n4. 離開\n請選擇:'))
+#
+#     if select == 1: # 儲值
+#         machine.deposit()
+#
+#     elif select == 2: #購買
+#         machine.buy()
+#     elif select == 3: #查詢餘額
+#         print(f'目前餘額為 {machine.balance}元')#代替大括號的空白
+#
+#     elif select == 4: #離開
+#         print('bye')
+#         flag = False
+#         break
+#
+#     else: #重新輸入
+#         print('====請輸入1-4之間====')
+#         continue
 
-while flag:
-    print('\n================')
-    select = eval(input('1. 儲值\2. 購買\n3. 查詢餘額\n4. 離開\n請選擇:'))
-
-    if select == 1: # 儲值
-        machine.deposit()
-
-    elif select == 2: #購買
-        machine.buy()
-    elif select == 3: #查詢餘額
-        print(f'目前餘額為 {machine.balance}元')#代替大括號的空白
-
-    elif select == 4: #離開
-        print('bye')
-        flag = False
-        break
-
-    else: #重新輸入
-        print('====請輸入1-4之間====')
-        continue
-
+print('20200325 快放假啦~~~')
